@@ -1,8 +1,14 @@
 <?php
+/**
+ * 日志工具类
+ *
+ * @author Lin Hao<lin.hao@xiaonianyu.com>
+ * @date 2020-12-24 10:28:30
+ */
+
 namespace Util;
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 require_once(ROOT_PATH.'/Vendor/autoload.php');

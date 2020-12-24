@@ -2,9 +2,8 @@
 /**
  * 入口文件.
  *
- * @author Hao Lin <linh@jumei.com>
- *
- * @date 2014-07-14
+ * @author Lin Hao<lin.hao@xiaonianyu.com>
+ * @date 2020-12-24 10:28:30
  */
 
 /**

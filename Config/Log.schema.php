@@ -13,7 +13,4 @@ class Log {
     // 文件日志的根目录.请确认php进程对此目录可写
     public $FILE_LOG_ROOT = "#{ServiceBase.Log.FILE_LOG_ROOT}";
 
-    // 数据库日志配置
-    public $db = "#{ServiceBase.Log.db}";
-
 }

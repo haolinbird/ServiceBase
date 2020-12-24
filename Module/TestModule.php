@@ -2,8 +2,8 @@
 /**
  * 测试业务类
  *
- * @author Hao Lin <haolinbird@163.com>
- * @date 2020-05-06 10:28:30
+ * @author Lin Hao<lin.hao@xiaonianyu.com>
+ * @date 2020-12-24 10:28:30
  */
 
 namespace Module;
@@ -17,8 +17,6 @@ class TestModule extends \Module\ModuleBase
     CONST REDIS_CLUSTER_DEFAULT = 'default';
     // Redis 测试 KEY 前缀
     CONST TEST_KEY_PREFIX = 'test_key_';
-
-
 
     /**
      * 获取单例对象.

@@ -2,8 +2,8 @@
 /**
  * 统一错误码对照表
  *
- * @author Hao Lin <haolinbird@163.com>
- * @date 2020-05-06 10:28:30
+ * @author Lin Hao<lin.hao@xiaonianyu.com>
+ * @date 2020-12-24 10:28:30
  */
 
 namespace Util;
