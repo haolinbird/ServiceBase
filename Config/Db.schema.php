@@ -19,11 +19,11 @@ class Db
      */
     public $read = array(
         'default' => array(
-            'host'         => '127.0.0.1',
-            'port'         => 3306,
-            'db'           => 'test_db',
-            'user'         => 'root',
-            'password'     => '123456',
+            'host'         => "#{ServiceBase.Db.Default.Read.Host}",
+            'port'         => "#{ServiceBase.Db.Default.Read.Port}",
+            'db'           => "#{ServiceBase.Db.Default.Read.Database}",
+            'user'         => "#{ServiceBase.Db.Default.Read.Host}",
+            'password'     => "#{ServiceBase.Db.Default.Read.Password}",
             'confirm_link' => true,
             'options'      => array(
                 \PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'utf8\'',
@@ -34,11 +34,11 @@ class Db
 
     public $write = array(
         'default' => array(
-            'host'         => '127.0.0.1',
-            'port'         => 3306,
-            'db'           => 'test_db',
-            'user'         => 'root',
-            'password'     => '123456',
+            'host'         => "#{ServiceBase.Db.Default.Write.Host}",
+            'port'         => "#{ServiceBase.Db.Default.Write.Port}",
+            'db'           => "#{ServiceBase.Db.Default.Write.Database}",
+            'user'         => "#{ServiceBase.Db.Default.Write.Host}",
+            'password'     => "#{ServiceBase.Db.Default.Write.Password}",
             'confirm_link' => true,
             'options'      => array(
                 \PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'utf8\'',

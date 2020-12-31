@@ -14,13 +14,13 @@ namespace Config;
 class MNLogger
 {
     public $exception = array (
-        'logdir' => '/home/logs/monitor/',
+        'logdir' => "#{ServiceBase.MNLogger.Exception.Logdir}",
         'app' => 'Service-Base',
         'on' => true,
     );
 
     public $trace = array (
-        'logdir' => '/home/logs/monitor/',
+        'logdir' => "#{ServiceBase.MNLogger.Trace.Logdir}",
         'app' => 'Service-Base',
         'on' => false,
     );

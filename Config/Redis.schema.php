@@ -10,7 +10,6 @@ namespace Config;
 
 class Redis
 {
-
     /**
      * Configs of Redis.
      * 
@@ -18,8 +17,8 @@ class Redis
      */
     public $default = array(
         'db' => 1,
-        'nodes' =>  "#{Res.Redis.user.storage}",
-        'password' => "#{Res.Redis.union.cache.auth}"
+        'nodes' =>  "#{Res.Redis.Default.Storage}",
+        'password' => "#{Res.Redis.Default.Storage.Auth}"
     );
 
 }
